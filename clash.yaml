@@ -67,7 +67,7 @@ proxies:
     path: /mugua
 - alterId: 0
   cipher: auto
-  name: 02.24|freesub|美国02
+  name: 02.24|freesub|美国|加利福尼亚|旧金山01
   network: ws
   port: 80
   server: v125.toddns.tk
@@ -82,7 +82,7 @@ proxies:
     path: /usv125N93nz
 - alterId: 0
   cipher: auto
-  name: 02.24|freesub|美国03
+  name: 02.24|freesub|美国02
   network: ws
   port: 443
   server: 141.193.213.20
@@ -255,19 +255,6 @@ proxies:
     headers:
       Host: wangsu.com
     path: /wel/10
-- alterId: 0
-  cipher: auto
-  name: 02.24|freesub|美国|马萨诸塞
-  network: ws
-  port: 443
-  server: 65.109.184.152
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5cf836c8-bb7d-4eac-f0ee-bc721fb7453b
-  ws-opts:
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 02.24|freesub|美国|亚马逊02
   password: G!yBwPWH3Vao
@@ -275,16 +262,6 @@ proxies:
   server: 51.161.118.38
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 02.24|freesub|澳大利亚02
-  port: 15657
-  server: 140.83.84.99
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 63795755-66a3-4109-f29a-f8fa9c055814
 - alterId: 0
   cipher: auto
   name: 02.24|freesub|比利时
@@ -317,7 +294,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 02.24|freesub|美国|加利福尼亚|旧金山01
+  name: 02.24|freesub|美国|加利福尼亚|旧金山02
   network: ws
   port: 443
   server: us2.sanfen001.pics
@@ -333,7 +310,7 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 02.24|freesub|美国04
+  name: 02.24|freesub|美国03
   network: ws
   port: 80
   server: v47a.toddns.tk
@@ -391,7 +368,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 02.24|freesub|美国05
+  name: 02.24|freesub|美国04
   network: ws
   port: 443
   server: 141.193.213.20
@@ -406,7 +383,7 @@ proxies:
     path: /9JZFDTKE
 - alterId: 0
   cipher: auto
-  name: 02.24|freesub|美国|加利福尼亚|旧金山02
+  name: 02.24|freesub|美国|加利福尼亚|旧金山03
   network: ws
   port: 443
   server: 172.64.154.155
@@ -421,7 +398,7 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 02.24|freesub|澳大利亚03
+  name: 02.24|freesub|澳大利亚02
   network: ws
   port: 443
   server: 203.24.108.10
@@ -471,7 +448,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 02.24|freesub|美国06
+  name: 02.24|freesub|美国|加利福尼亚|旧金山04
   network: ws
   port: 2083
   server: v2ray.ibgfw.top
@@ -493,7 +470,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 02.24|freesub|美国|加利福尼亚|旧金山03
+  name: 02.24|freesub|美国05
   network: ws
   port: 2083
   server: v2ray.ibgfw.top
@@ -552,7 +529,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 02.24|freesub|美国07
+  name: 02.24|freesub|美国06
   network: ws
   port: 80
   server: 51.81.202.62
@@ -597,7 +574,7 @@ proxies:
     path: /oker2jwl
 - alterId: 0
   cipher: auto
-  name: 02.24|freesub|美国08
+  name: 02.24|freesub|美国07
   network: ws
   port: 443
   server: eu-3.youngns.ml
@@ -619,7 +596,22 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 02.24|freesub|新加坡
+  name: 02.24|freesub|韩国|韩国电信
+  network: ws
+  port: 443
+  server: sg-5.0rd.net
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: b7200fb0-b107-11ed-b233-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: sg-5.0rd.net
+    path: /uvxrjhi0
+- alterId: 0
+  cipher: auto
+  name: 02.24|freesub|美国|加利福尼亚|费利蒙
   network: ws
   port: 443
   server: vus3.0bad.com
@@ -662,7 +654,7 @@ proxies:
     path: /reffs7y26g0ua
 - alterId: 0
   cipher: auto
-  name: 02.24|freesub|美国|加利福尼亚|旧金山04
+  name: 02.24|freesub|美国|加利福尼亚|旧金山05
   network: ws
   port: 443
   server: lg1.trump2023.us
@@ -678,7 +670,7 @@ proxies:
     path: /ECTCJ0DF
 - alterId: 0
   cipher: auto
-  name: 02.24|freesub|美国09
+  name: 02.24|freesub|美国|加利福尼亚|旧金山06
   network: ws
   port: 8880
   server: vmess.woiden.yuji2022.gq
@@ -706,7 +698,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 02.24|freesub|美国|加利福尼亚|旧金山05
+  name: 02.24|freesub|美国|加利福尼亚|旧金山07
   network: ws
   port: 443
   server: hax-us4.sudoxin.tk
@@ -736,7 +728,7 @@ proxies:
     path: /abc
 - alterId: 64
   cipher: auto
-  name: 02.24|freesub|澳大利亚04
+  name: 02.24|freesub|澳大利亚03
   port: 24445
   server: 140.83.63.38
   skip-cert-verify: false
@@ -790,7 +782,7 @@ proxies:
     path: /oker2jwl
 - alterId: 0
   cipher: auto
-  name: 02.24|freesub|美国10
+  name: 02.24|freesub|美国|加利福尼亚|旧金山08
   network: ws
   port: 2083
   server: v2ray.ibgfw.top
@@ -820,7 +812,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 02.24|freesub|美国|加利福尼亚|旧金山06
+  name: 02.24|freesub|美国|加利福尼亚|旧金山09
   network: ws
   port: 443
   server: 172.67.137.72
@@ -854,8 +846,8 @@ proxy-groups:
   - 02.24|freesub|美国|马萨诸塞|亚马逊
   - 02.24|freesub|亚太地区|亚太地区
   - 02.24|freesub|中国|江苏省|扬州市|移动
+  - 02.24|freesub|美国|加利福尼亚|旧金山01
   - 02.24|freesub|美国02
-  - 02.24|freesub|美国03
   - 02.24|freesub|德国
   - 02.24|freesub|伯利兹|Belize01
   - 02.24|freesub|英国01
@@ -868,49 +860,48 @@ proxy-groups:
   - 02.24|freesub|乌克兰
   - 02.24|freesub|德国|黑森
   - 02.24|freesub|中国|香港|电讯盈科
-  - 02.24|freesub|美国|马萨诸塞
   - 02.24|freesub|美国|亚马逊02
-  - 02.24|freesub|澳大利亚02
   - 02.24|freesub|比利时
   - 02.24|freesub|未知03
-  - 02.24|freesub|美国|加利福尼亚|旧金山01
-  - 02.24|freesub|美国04
+  - 02.24|freesub|美国|加利福尼亚|旧金山02
+  - 02.24|freesub|美国03
   - 02.24|freesub|俄罗斯|莫斯科|莫斯科
   - 02.24|freesub|哥斯达黎加
   - 02.24|freesub|美国|伊利诺伊
-  - 02.24|freesub|美国05
-  - 02.24|freesub|美国|加利福尼亚|旧金山02
-  - 02.24|freesub|澳大利亚03
+  - 02.24|freesub|美国04
+  - 02.24|freesub|美国|加利福尼亚|旧金山03
+  - 02.24|freesub|澳大利亚02
   - 02.24|freesub|伯利兹|Belize02
   - 02.24|freesub|沙特阿拉伯|麦加地区
   - 02.24|freesub|美国|亚马逊03
-  - 02.24|freesub|美国06
+  - 02.24|freesub|美国|加利福尼亚|旧金山04
   - 02.24|freesub|美国|加利福尼亚01
-  - 02.24|freesub|美国|加利福尼亚|旧金山03
+  - 02.24|freesub|美国05
   - 02.24|freesub|日本
   - 02.24|freesub|印度|卡纳塔克|班加罗尔
   - 02.24|freesub|法国
-  - 02.24|freesub|美国07
+  - 02.24|freesub|美国06
   - 02.24|freesub|美国|加利福尼亚02
   - 02.24|freesub|英国|伦敦|伦敦01
   - 02.24|freesub|英国|伦敦|伦敦02
-  - 02.24|freesub|美国08
+  - 02.24|freesub|美国07
   - 02.24|freesub|美国|亚马逊04
-  - 02.24|freesub|新加坡
+  - 02.24|freesub|韩国|韩国电信
+  - 02.24|freesub|美国|加利福尼亚|费利蒙
   - 02.24|freesub|加拿大|魁北克|博阿努瓦
   - 02.24|freesub|美国|马萨诸塞|波士顿
-  - 02.24|freesub|美国|加利福尼亚|旧金山04
-  - 02.24|freesub|美国09
-  - 02.24|freesub|美国|科罗拉多|威瑞森
   - 02.24|freesub|美国|加利福尼亚|旧金山05
+  - 02.24|freesub|美国|加利福尼亚|旧金山06
+  - 02.24|freesub|美国|科罗拉多|威瑞森
+  - 02.24|freesub|美国|加利福尼亚|旧金山07
   - 02.24|freesub|美国|加利福尼亚|圣何塞
-  - 02.24|freesub|澳大利亚04
+  - 02.24|freesub|澳大利亚03
   - 02.24|freesub|未知04
   - 02.24|freesub|加拿大|安大略|多伦多
   - 02.24|freesub|英国02
-  - 02.24|freesub|美国10
+  - 02.24|freesub|美国|加利福尼亚|旧金山08
   - 02.24|freesub|美国|加利福尼亚03
-  - 02.24|freesub|美国|加利福尼亚|旧金山06
+  - 02.24|freesub|美国|加利福尼亚|旧金山09
   - 02.24|freesub|美国|加利福尼亚04
   type: select
 - interval: 300
@@ -922,8 +913,8 @@ proxy-groups:
   - 02.24|freesub|美国|马萨诸塞|亚马逊
   - 02.24|freesub|亚太地区|亚太地区
   - 02.24|freesub|中国|江苏省|扬州市|移动
+  - 02.24|freesub|美国|加利福尼亚|旧金山01
   - 02.24|freesub|美国02
-  - 02.24|freesub|美国03
   - 02.24|freesub|德国
   - 02.24|freesub|伯利兹|Belize01
   - 02.24|freesub|英国01
@@ -936,49 +927,48 @@ proxy-groups:
   - 02.24|freesub|乌克兰
   - 02.24|freesub|德国|黑森
   - 02.24|freesub|中国|香港|电讯盈科
-  - 02.24|freesub|美国|马萨诸塞
   - 02.24|freesub|美国|亚马逊02
-  - 02.24|freesub|澳大利亚02
   - 02.24|freesub|比利时
   - 02.24|freesub|未知03
-  - 02.24|freesub|美国|加利福尼亚|旧金山01
-  - 02.24|freesub|美国04
+  - 02.24|freesub|美国|加利福尼亚|旧金山02
+  - 02.24|freesub|美国03
   - 02.24|freesub|俄罗斯|莫斯科|莫斯科
   - 02.24|freesub|哥斯达黎加
   - 02.24|freesub|美国|伊利诺伊
-  - 02.24|freesub|美国05
-  - 02.24|freesub|美国|加利福尼亚|旧金山02
-  - 02.24|freesub|澳大利亚03
+  - 02.24|freesub|美国04
+  - 02.24|freesub|美国|加利福尼亚|旧金山03
+  - 02.24|freesub|澳大利亚02
   - 02.24|freesub|伯利兹|Belize02
   - 02.24|freesub|沙特阿拉伯|麦加地区
   - 02.24|freesub|美国|亚马逊03
-  - 02.24|freesub|美国06
+  - 02.24|freesub|美国|加利福尼亚|旧金山04
   - 02.24|freesub|美国|加利福尼亚01
-  - 02.24|freesub|美国|加利福尼亚|旧金山03
+  - 02.24|freesub|美国05
   - 02.24|freesub|日本
   - 02.24|freesub|印度|卡纳塔克|班加罗尔
   - 02.24|freesub|法国
-  - 02.24|freesub|美国07
+  - 02.24|freesub|美国06
   - 02.24|freesub|美国|加利福尼亚02
   - 02.24|freesub|英国|伦敦|伦敦01
   - 02.24|freesub|英国|伦敦|伦敦02
-  - 02.24|freesub|美国08
+  - 02.24|freesub|美国07
   - 02.24|freesub|美国|亚马逊04
-  - 02.24|freesub|新加坡
+  - 02.24|freesub|韩国|韩国电信
+  - 02.24|freesub|美国|加利福尼亚|费利蒙
   - 02.24|freesub|加拿大|魁北克|博阿努瓦
   - 02.24|freesub|美国|马萨诸塞|波士顿
-  - 02.24|freesub|美国|加利福尼亚|旧金山04
-  - 02.24|freesub|美国09
-  - 02.24|freesub|美国|科罗拉多|威瑞森
   - 02.24|freesub|美国|加利福尼亚|旧金山05
+  - 02.24|freesub|美国|加利福尼亚|旧金山06
+  - 02.24|freesub|美国|科罗拉多|威瑞森
+  - 02.24|freesub|美国|加利福尼亚|旧金山07
   - 02.24|freesub|美国|加利福尼亚|圣何塞
-  - 02.24|freesub|澳大利亚04
+  - 02.24|freesub|澳大利亚03
   - 02.24|freesub|未知04
   - 02.24|freesub|加拿大|安大略|多伦多
   - 02.24|freesub|英国02
-  - 02.24|freesub|美国10
+  - 02.24|freesub|美国|加利福尼亚|旧金山08
   - 02.24|freesub|美国|加利福尼亚03
-  - 02.24|freesub|美国|加利福尼亚|旧金山06
+  - 02.24|freesub|美国|加利福尼亚|旧金山09
   - 02.24|freesub|美国|加利福尼亚04
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -993,8 +983,8 @@ proxy-groups:
   - 02.24|freesub|美国|马萨诸塞|亚马逊
   - 02.24|freesub|亚太地区|亚太地区
   - 02.24|freesub|中国|江苏省|扬州市|移动
+  - 02.24|freesub|美国|加利福尼亚|旧金山01
   - 02.24|freesub|美国02
-  - 02.24|freesub|美国03
   - 02.24|freesub|德国
   - 02.24|freesub|伯利兹|Belize01
   - 02.24|freesub|英国01
@@ -1007,49 +997,48 @@ proxy-groups:
   - 02.24|freesub|乌克兰
   - 02.24|freesub|德国|黑森
   - 02.24|freesub|中国|香港|电讯盈科
-  - 02.24|freesub|美国|马萨诸塞
   - 02.24|freesub|美国|亚马逊02
-  - 02.24|freesub|澳大利亚02
   - 02.24|freesub|比利时
   - 02.24|freesub|未知03
-  - 02.24|freesub|美国|加利福尼亚|旧金山01
-  - 02.24|freesub|美国04
+  - 02.24|freesub|美国|加利福尼亚|旧金山02
+  - 02.24|freesub|美国03
   - 02.24|freesub|俄罗斯|莫斯科|莫斯科
   - 02.24|freesub|哥斯达黎加
   - 02.24|freesub|美国|伊利诺伊
-  - 02.24|freesub|美国05
-  - 02.24|freesub|美国|加利福尼亚|旧金山02
-  - 02.24|freesub|澳大利亚03
+  - 02.24|freesub|美国04
+  - 02.24|freesub|美国|加利福尼亚|旧金山03
+  - 02.24|freesub|澳大利亚02
   - 02.24|freesub|伯利兹|Belize02
   - 02.24|freesub|沙特阿拉伯|麦加地区
   - 02.24|freesub|美国|亚马逊03
-  - 02.24|freesub|美国06
+  - 02.24|freesub|美国|加利福尼亚|旧金山04
   - 02.24|freesub|美国|加利福尼亚01
-  - 02.24|freesub|美国|加利福尼亚|旧金山03
+  - 02.24|freesub|美国05
   - 02.24|freesub|日本
   - 02.24|freesub|印度|卡纳塔克|班加罗尔
   - 02.24|freesub|法国
-  - 02.24|freesub|美国07
+  - 02.24|freesub|美国06
   - 02.24|freesub|美国|加利福尼亚02
   - 02.24|freesub|英国|伦敦|伦敦01
   - 02.24|freesub|英国|伦敦|伦敦02
-  - 02.24|freesub|美国08
+  - 02.24|freesub|美国07
   - 02.24|freesub|美国|亚马逊04
-  - 02.24|freesub|新加坡
+  - 02.24|freesub|韩国|韩国电信
+  - 02.24|freesub|美国|加利福尼亚|费利蒙
   - 02.24|freesub|加拿大|魁北克|博阿努瓦
   - 02.24|freesub|美国|马萨诸塞|波士顿
-  - 02.24|freesub|美国|加利福尼亚|旧金山04
-  - 02.24|freesub|美国09
-  - 02.24|freesub|美国|科罗拉多|威瑞森
   - 02.24|freesub|美国|加利福尼亚|旧金山05
+  - 02.24|freesub|美国|加利福尼亚|旧金山06
+  - 02.24|freesub|美国|科罗拉多|威瑞森
+  - 02.24|freesub|美国|加利福尼亚|旧金山07
   - 02.24|freesub|美国|加利福尼亚|圣何塞
-  - 02.24|freesub|澳大利亚04
+  - 02.24|freesub|澳大利亚03
   - 02.24|freesub|未知04
   - 02.24|freesub|加拿大|安大略|多伦多
   - 02.24|freesub|英国02
-  - 02.24|freesub|美国10
+  - 02.24|freesub|美国|加利福尼亚|旧金山08
   - 02.24|freesub|美国|加利福尼亚03
-  - 02.24|freesub|美国|加利福尼亚|旧金山06
+  - 02.24|freesub|美国|加利福尼亚|旧金山09
   - 02.24|freesub|美国|加利福尼亚04
   type: select
 - name: ⛔️ 广告拦截
@@ -1075,8 +1064,8 @@ proxy-groups:
   - 02.24|freesub|美国|马萨诸塞|亚马逊
   - 02.24|freesub|亚太地区|亚太地区
   - 02.24|freesub|中国|江苏省|扬州市|移动
+  - 02.24|freesub|美国|加利福尼亚|旧金山01
   - 02.24|freesub|美国02
-  - 02.24|freesub|美国03
   - 02.24|freesub|德国
   - 02.24|freesub|伯利兹|Belize01
   - 02.24|freesub|英国01
@@ -1089,49 +1078,48 @@ proxy-groups:
   - 02.24|freesub|乌克兰
   - 02.24|freesub|德国|黑森
   - 02.24|freesub|中国|香港|电讯盈科
-  - 02.24|freesub|美国|马萨诸塞
   - 02.24|freesub|美国|亚马逊02
-  - 02.24|freesub|澳大利亚02
   - 02.24|freesub|比利时
   - 02.24|freesub|未知03
-  - 02.24|freesub|美国|加利福尼亚|旧金山01
-  - 02.24|freesub|美国04
+  - 02.24|freesub|美国|加利福尼亚|旧金山02
+  - 02.24|freesub|美国03
   - 02.24|freesub|俄罗斯|莫斯科|莫斯科
   - 02.24|freesub|哥斯达黎加
   - 02.24|freesub|美国|伊利诺伊
-  - 02.24|freesub|美国05
-  - 02.24|freesub|美国|加利福尼亚|旧金山02
-  - 02.24|freesub|澳大利亚03
+  - 02.24|freesub|美国04
+  - 02.24|freesub|美国|加利福尼亚|旧金山03
+  - 02.24|freesub|澳大利亚02
   - 02.24|freesub|伯利兹|Belize02
   - 02.24|freesub|沙特阿拉伯|麦加地区
   - 02.24|freesub|美国|亚马逊03
-  - 02.24|freesub|美国06
+  - 02.24|freesub|美国|加利福尼亚|旧金山04
   - 02.24|freesub|美国|加利福尼亚01
-  - 02.24|freesub|美国|加利福尼亚|旧金山03
+  - 02.24|freesub|美国05
   - 02.24|freesub|日本
   - 02.24|freesub|印度|卡纳塔克|班加罗尔
   - 02.24|freesub|法国
-  - 02.24|freesub|美国07
+  - 02.24|freesub|美国06
   - 02.24|freesub|美国|加利福尼亚02
   - 02.24|freesub|英国|伦敦|伦敦01
   - 02.24|freesub|英国|伦敦|伦敦02
-  - 02.24|freesub|美国08
+  - 02.24|freesub|美国07
   - 02.24|freesub|美国|亚马逊04
-  - 02.24|freesub|新加坡
+  - 02.24|freesub|韩国|韩国电信
+  - 02.24|freesub|美国|加利福尼亚|费利蒙
   - 02.24|freesub|加拿大|魁北克|博阿努瓦
   - 02.24|freesub|美国|马萨诸塞|波士顿
-  - 02.24|freesub|美国|加利福尼亚|旧金山04
-  - 02.24|freesub|美国09
-  - 02.24|freesub|美国|科罗拉多|威瑞森
   - 02.24|freesub|美国|加利福尼亚|旧金山05
+  - 02.24|freesub|美国|加利福尼亚|旧金山06
+  - 02.24|freesub|美国|科罗拉多|威瑞森
+  - 02.24|freesub|美国|加利福尼亚|旧金山07
   - 02.24|freesub|美国|加利福尼亚|圣何塞
-  - 02.24|freesub|澳大利亚04
+  - 02.24|freesub|澳大利亚03
   - 02.24|freesub|未知04
   - 02.24|freesub|加拿大|安大略|多伦多
   - 02.24|freesub|英国02
-  - 02.24|freesub|美国10
+  - 02.24|freesub|美国|加利福尼亚|旧金山08
   - 02.24|freesub|美国|加利福尼亚03
-  - 02.24|freesub|美国|加利福尼亚|旧金山06
+  - 02.24|freesub|美国|加利福尼亚|旧金山09
   - 02.24|freesub|美国|加利福尼亚04
   type: select
 - name: "\U0001F30F 国内媒体"
@@ -1144,8 +1132,8 @@ proxy-groups:
   - 02.24|freesub|美国|马萨诸塞|亚马逊
   - 02.24|freesub|亚太地区|亚太地区
   - 02.24|freesub|中国|江苏省|扬州市|移动
+  - 02.24|freesub|美国|加利福尼亚|旧金山01
   - 02.24|freesub|美国02
-  - 02.24|freesub|美国03
   - 02.24|freesub|德国
   - 02.24|freesub|伯利兹|Belize01
   - 02.24|freesub|英国01
@@ -1158,49 +1146,48 @@ proxy-groups:
   - 02.24|freesub|乌克兰
   - 02.24|freesub|德国|黑森
   - 02.24|freesub|中国|香港|电讯盈科
-  - 02.24|freesub|美国|马萨诸塞
   - 02.24|freesub|美国|亚马逊02
-  - 02.24|freesub|澳大利亚02
   - 02.24|freesub|比利时
   - 02.24|freesub|未知03
-  - 02.24|freesub|美国|加利福尼亚|旧金山01
-  - 02.24|freesub|美国04
+  - 02.24|freesub|美国|加利福尼亚|旧金山02
+  - 02.24|freesub|美国03
   - 02.24|freesub|俄罗斯|莫斯科|莫斯科
   - 02.24|freesub|哥斯达黎加
   - 02.24|freesub|美国|伊利诺伊
-  - 02.24|freesub|美国05
-  - 02.24|freesub|美国|加利福尼亚|旧金山02
-  - 02.24|freesub|澳大利亚03
+  - 02.24|freesub|美国04
+  - 02.24|freesub|美国|加利福尼亚|旧金山03
+  - 02.24|freesub|澳大利亚02
   - 02.24|freesub|伯利兹|Belize02
   - 02.24|freesub|沙特阿拉伯|麦加地区
   - 02.24|freesub|美国|亚马逊03
-  - 02.24|freesub|美国06
+  - 02.24|freesub|美国|加利福尼亚|旧金山04
   - 02.24|freesub|美国|加利福尼亚01
-  - 02.24|freesub|美国|加利福尼亚|旧金山03
+  - 02.24|freesub|美国05
   - 02.24|freesub|日本
   - 02.24|freesub|印度|卡纳塔克|班加罗尔
   - 02.24|freesub|法国
-  - 02.24|freesub|美国07
+  - 02.24|freesub|美国06
   - 02.24|freesub|美国|加利福尼亚02
   - 02.24|freesub|英国|伦敦|伦敦01
   - 02.24|freesub|英国|伦敦|伦敦02
-  - 02.24|freesub|美国08
+  - 02.24|freesub|美国07
   - 02.24|freesub|美国|亚马逊04
-  - 02.24|freesub|新加坡
+  - 02.24|freesub|韩国|韩国电信
+  - 02.24|freesub|美国|加利福尼亚|费利蒙
   - 02.24|freesub|加拿大|魁北克|博阿努瓦
   - 02.24|freesub|美国|马萨诸塞|波士顿
-  - 02.24|freesub|美国|加利福尼亚|旧金山04
-  - 02.24|freesub|美国09
-  - 02.24|freesub|美国|科罗拉多|威瑞森
   - 02.24|freesub|美国|加利福尼亚|旧金山05
+  - 02.24|freesub|美国|加利福尼亚|旧金山06
+  - 02.24|freesub|美国|科罗拉多|威瑞森
+  - 02.24|freesub|美国|加利福尼亚|旧金山07
   - 02.24|freesub|美国|加利福尼亚|圣何塞
-  - 02.24|freesub|澳大利亚04
+  - 02.24|freesub|澳大利亚03
   - 02.24|freesub|未知04
   - 02.24|freesub|加拿大|安大略|多伦多
   - 02.24|freesub|英国02
-  - 02.24|freesub|美国10
+  - 02.24|freesub|美国|加利福尼亚|旧金山08
   - 02.24|freesub|美国|加利福尼亚03
-  - 02.24|freesub|美国|加利福尼亚|旧金山06
+  - 02.24|freesub|美国|加利福尼亚|旧金山09
   - 02.24|freesub|美国|加利福尼亚04
   type: select
 - name: Ⓜ️ 微软服务
@@ -1213,8 +1200,8 @@ proxy-groups:
   - 02.24|freesub|美国|马萨诸塞|亚马逊
   - 02.24|freesub|亚太地区|亚太地区
   - 02.24|freesub|中国|江苏省|扬州市|移动
+  - 02.24|freesub|美国|加利福尼亚|旧金山01
   - 02.24|freesub|美国02
-  - 02.24|freesub|美国03
   - 02.24|freesub|德国
   - 02.24|freesub|伯利兹|Belize01
   - 02.24|freesub|英国01
@@ -1227,49 +1214,48 @@ proxy-groups:
   - 02.24|freesub|乌克兰
   - 02.24|freesub|德国|黑森
   - 02.24|freesub|中国|香港|电讯盈科
-  - 02.24|freesub|美国|马萨诸塞
   - 02.24|freesub|美国|亚马逊02
-  - 02.24|freesub|澳大利亚02
   - 02.24|freesub|比利时
   - 02.24|freesub|未知03
-  - 02.24|freesub|美国|加利福尼亚|旧金山01
-  - 02.24|freesub|美国04
+  - 02.24|freesub|美国|加利福尼亚|旧金山02
+  - 02.24|freesub|美国03
   - 02.24|freesub|俄罗斯|莫斯科|莫斯科
   - 02.24|freesub|哥斯达黎加
   - 02.24|freesub|美国|伊利诺伊
-  - 02.24|freesub|美国05
-  - 02.24|freesub|美国|加利福尼亚|旧金山02
-  - 02.24|freesub|澳大利亚03
+  - 02.24|freesub|美国04
+  - 02.24|freesub|美国|加利福尼亚|旧金山03
+  - 02.24|freesub|澳大利亚02
   - 02.24|freesub|伯利兹|Belize02
   - 02.24|freesub|沙特阿拉伯|麦加地区
   - 02.24|freesub|美国|亚马逊03
-  - 02.24|freesub|美国06
+  - 02.24|freesub|美国|加利福尼亚|旧金山04
   - 02.24|freesub|美国|加利福尼亚01
-  - 02.24|freesub|美国|加利福尼亚|旧金山03
+  - 02.24|freesub|美国05
   - 02.24|freesub|日本
   - 02.24|freesub|印度|卡纳塔克|班加罗尔
   - 02.24|freesub|法国
-  - 02.24|freesub|美国07
+  - 02.24|freesub|美国06
   - 02.24|freesub|美国|加利福尼亚02
   - 02.24|freesub|英国|伦敦|伦敦01
   - 02.24|freesub|英国|伦敦|伦敦02
-  - 02.24|freesub|美国08
+  - 02.24|freesub|美国07
   - 02.24|freesub|美国|亚马逊04
-  - 02.24|freesub|新加坡
+  - 02.24|freesub|韩国|韩国电信
+  - 02.24|freesub|美国|加利福尼亚|费利蒙
   - 02.24|freesub|加拿大|魁北克|博阿努瓦
   - 02.24|freesub|美国|马萨诸塞|波士顿
-  - 02.24|freesub|美国|加利福尼亚|旧金山04
-  - 02.24|freesub|美国09
-  - 02.24|freesub|美国|科罗拉多|威瑞森
   - 02.24|freesub|美国|加利福尼亚|旧金山05
+  - 02.24|freesub|美国|加利福尼亚|旧金山06
+  - 02.24|freesub|美国|科罗拉多|威瑞森
+  - 02.24|freesub|美国|加利福尼亚|旧金山07
   - 02.24|freesub|美国|加利福尼亚|圣何塞
-  - 02.24|freesub|澳大利亚04
+  - 02.24|freesub|澳大利亚03
   - 02.24|freesub|未知04
   - 02.24|freesub|加拿大|安大略|多伦多
   - 02.24|freesub|英国02
-  - 02.24|freesub|美国10
+  - 02.24|freesub|美国|加利福尼亚|旧金山08
   - 02.24|freesub|美国|加利福尼亚03
-  - 02.24|freesub|美国|加利福尼亚|旧金山06
+  - 02.24|freesub|美国|加利福尼亚|旧金山09
   - 02.24|freesub|美国|加利福尼亚04
   type: select
 - name: "\U0001F4F2 电报信息"
@@ -1282,8 +1268,8 @@ proxy-groups:
   - 02.24|freesub|美国|马萨诸塞|亚马逊
   - 02.24|freesub|亚太地区|亚太地区
   - 02.24|freesub|中国|江苏省|扬州市|移动
+  - 02.24|freesub|美国|加利福尼亚|旧金山01
   - 02.24|freesub|美国02
-  - 02.24|freesub|美国03
   - 02.24|freesub|德国
   - 02.24|freesub|伯利兹|Belize01
   - 02.24|freesub|英国01
@@ -1296,49 +1282,48 @@ proxy-groups:
   - 02.24|freesub|乌克兰
   - 02.24|freesub|德国|黑森
   - 02.24|freesub|中国|香港|电讯盈科
-  - 02.24|freesub|美国|马萨诸塞
   - 02.24|freesub|美国|亚马逊02
-  - 02.24|freesub|澳大利亚02
   - 02.24|freesub|比利时
   - 02.24|freesub|未知03
-  - 02.24|freesub|美国|加利福尼亚|旧金山01
-  - 02.24|freesub|美国04
+  - 02.24|freesub|美国|加利福尼亚|旧金山02
+  - 02.24|freesub|美国03
   - 02.24|freesub|俄罗斯|莫斯科|莫斯科
   - 02.24|freesub|哥斯达黎加
   - 02.24|freesub|美国|伊利诺伊
-  - 02.24|freesub|美国05
-  - 02.24|freesub|美国|加利福尼亚|旧金山02
-  - 02.24|freesub|澳大利亚03
+  - 02.24|freesub|美国04
+  - 02.24|freesub|美国|加利福尼亚|旧金山03
+  - 02.24|freesub|澳大利亚02
   - 02.24|freesub|伯利兹|Belize02
   - 02.24|freesub|沙特阿拉伯|麦加地区
   - 02.24|freesub|美国|亚马逊03
-  - 02.24|freesub|美国06
+  - 02.24|freesub|美国|加利福尼亚|旧金山04
   - 02.24|freesub|美国|加利福尼亚01
-  - 02.24|freesub|美国|加利福尼亚|旧金山03
+  - 02.24|freesub|美国05
   - 02.24|freesub|日本
   - 02.24|freesub|印度|卡纳塔克|班加罗尔
   - 02.24|freesub|法国
-  - 02.24|freesub|美国07
+  - 02.24|freesub|美国06
   - 02.24|freesub|美国|加利福尼亚02
   - 02.24|freesub|英国|伦敦|伦敦01
   - 02.24|freesub|英国|伦敦|伦敦02
-  - 02.24|freesub|美国08
+  - 02.24|freesub|美国07
   - 02.24|freesub|美国|亚马逊04
-  - 02.24|freesub|新加坡
+  - 02.24|freesub|韩国|韩国电信
+  - 02.24|freesub|美国|加利福尼亚|费利蒙
   - 02.24|freesub|加拿大|魁北克|博阿努瓦
   - 02.24|freesub|美国|马萨诸塞|波士顿
-  - 02.24|freesub|美国|加利福尼亚|旧金山04
-  - 02.24|freesub|美国09
-  - 02.24|freesub|美国|科罗拉多|威瑞森
   - 02.24|freesub|美国|加利福尼亚|旧金山05
+  - 02.24|freesub|美国|加利福尼亚|旧金山06
+  - 02.24|freesub|美国|科罗拉多|威瑞森
+  - 02.24|freesub|美国|加利福尼亚|旧金山07
   - 02.24|freesub|美国|加利福尼亚|圣何塞
-  - 02.24|freesub|澳大利亚04
+  - 02.24|freesub|澳大利亚03
   - 02.24|freesub|未知04
   - 02.24|freesub|加拿大|安大略|多伦多
   - 02.24|freesub|英国02
-  - 02.24|freesub|美国10
+  - 02.24|freesub|美国|加利福尼亚|旧金山08
   - 02.24|freesub|美国|加利福尼亚03
-  - 02.24|freesub|美国|加利福尼亚|旧金山06
+  - 02.24|freesub|美国|加利福尼亚|旧金山09
   - 02.24|freesub|美国|加利福尼亚04
   type: select
 - name: "\U0001F34E 苹果服务"
@@ -1352,8 +1337,8 @@ proxy-groups:
   - 02.24|freesub|美国|马萨诸塞|亚马逊
   - 02.24|freesub|亚太地区|亚太地区
   - 02.24|freesub|中国|江苏省|扬州市|移动
+  - 02.24|freesub|美国|加利福尼亚|旧金山01
   - 02.24|freesub|美国02
-  - 02.24|freesub|美国03
   - 02.24|freesub|德国
   - 02.24|freesub|伯利兹|Belize01
   - 02.24|freesub|英国01
@@ -1366,49 +1351,48 @@ proxy-groups:
   - 02.24|freesub|乌克兰
   - 02.24|freesub|德国|黑森
   - 02.24|freesub|中国|香港|电讯盈科
-  - 02.24|freesub|美国|马萨诸塞
   - 02.24|freesub|美国|亚马逊02
-  - 02.24|freesub|澳大利亚02
   - 02.24|freesub|比利时
   - 02.24|freesub|未知03
-  - 02.24|freesub|美国|加利福尼亚|旧金山01
-  - 02.24|freesub|美国04
+  - 02.24|freesub|美国|加利福尼亚|旧金山02
+  - 02.24|freesub|美国03
   - 02.24|freesub|俄罗斯|莫斯科|莫斯科
   - 02.24|freesub|哥斯达黎加
   - 02.24|freesub|美国|伊利诺伊
-  - 02.24|freesub|美国05
-  - 02.24|freesub|美国|加利福尼亚|旧金山02
-  - 02.24|freesub|澳大利亚03
+  - 02.24|freesub|美国04
+  - 02.24|freesub|美国|加利福尼亚|旧金山03
+  - 02.24|freesub|澳大利亚02
   - 02.24|freesub|伯利兹|Belize02
   - 02.24|freesub|沙特阿拉伯|麦加地区
   - 02.24|freesub|美国|亚马逊03
-  - 02.24|freesub|美国06
+  - 02.24|freesub|美国|加利福尼亚|旧金山04
   - 02.24|freesub|美国|加利福尼亚01
-  - 02.24|freesub|美国|加利福尼亚|旧金山03
+  - 02.24|freesub|美国05
   - 02.24|freesub|日本
   - 02.24|freesub|印度|卡纳塔克|班加罗尔
   - 02.24|freesub|法国
-  - 02.24|freesub|美国07
+  - 02.24|freesub|美国06
   - 02.24|freesub|美国|加利福尼亚02
   - 02.24|freesub|英国|伦敦|伦敦01
   - 02.24|freesub|英国|伦敦|伦敦02
-  - 02.24|freesub|美国08
+  - 02.24|freesub|美国07
   - 02.24|freesub|美国|亚马逊04
-  - 02.24|freesub|新加坡
+  - 02.24|freesub|韩国|韩国电信
+  - 02.24|freesub|美国|加利福尼亚|费利蒙
   - 02.24|freesub|加拿大|魁北克|博阿努瓦
   - 02.24|freesub|美国|马萨诸塞|波士顿
-  - 02.24|freesub|美国|加利福尼亚|旧金山04
-  - 02.24|freesub|美国09
-  - 02.24|freesub|美国|科罗拉多|威瑞森
   - 02.24|freesub|美国|加利福尼亚|旧金山05
+  - 02.24|freesub|美国|加利福尼亚|旧金山06
+  - 02.24|freesub|美国|科罗拉多|威瑞森
+  - 02.24|freesub|美国|加利福尼亚|旧金山07
   - 02.24|freesub|美国|加利福尼亚|圣何塞
-  - 02.24|freesub|澳大利亚04
+  - 02.24|freesub|澳大利亚03
   - 02.24|freesub|未知04
   - 02.24|freesub|加拿大|安大略|多伦多
   - 02.24|freesub|英国02
-  - 02.24|freesub|美国10
+  - 02.24|freesub|美国|加利福尼亚|旧金山08
   - 02.24|freesub|美国|加利福尼亚03
-  - 02.24|freesub|美国|加利福尼亚|旧金山06
+  - 02.24|freesub|美国|加利福尼亚|旧金山09
   - 02.24|freesub|美国|加利福尼亚04
   type: select
 - name: "\U0001F3AF 全球直连"
@@ -1431,8 +1415,8 @@ proxy-groups:
   - 02.24|freesub|美国|马萨诸塞|亚马逊
   - 02.24|freesub|亚太地区|亚太地区
   - 02.24|freesub|中国|江苏省|扬州市|移动
+  - 02.24|freesub|美国|加利福尼亚|旧金山01
   - 02.24|freesub|美国02
-  - 02.24|freesub|美国03
   - 02.24|freesub|德国
   - 02.24|freesub|伯利兹|Belize01
   - 02.24|freesub|英国01
@@ -1445,49 +1429,48 @@ proxy-groups:
   - 02.24|freesub|乌克兰
   - 02.24|freesub|德国|黑森
   - 02.24|freesub|中国|香港|电讯盈科
-  - 02.24|freesub|美国|马萨诸塞
   - 02.24|freesub|美国|亚马逊02
-  - 02.24|freesub|澳大利亚02
   - 02.24|freesub|比利时
   - 02.24|freesub|未知03
-  - 02.24|freesub|美国|加利福尼亚|旧金山01
-  - 02.24|freesub|美国04
+  - 02.24|freesub|美国|加利福尼亚|旧金山02
+  - 02.24|freesub|美国03
   - 02.24|freesub|俄罗斯|莫斯科|莫斯科
   - 02.24|freesub|哥斯达黎加
   - 02.24|freesub|美国|伊利诺伊
-  - 02.24|freesub|美国05
-  - 02.24|freesub|美国|加利福尼亚|旧金山02
-  - 02.24|freesub|澳大利亚03
+  - 02.24|freesub|美国04
+  - 02.24|freesub|美国|加利福尼亚|旧金山03
+  - 02.24|freesub|澳大利亚02
   - 02.24|freesub|伯利兹|Belize02
   - 02.24|freesub|沙特阿拉伯|麦加地区
   - 02.24|freesub|美国|亚马逊03
-  - 02.24|freesub|美国06
+  - 02.24|freesub|美国|加利福尼亚|旧金山04
   - 02.24|freesub|美国|加利福尼亚01
-  - 02.24|freesub|美国|加利福尼亚|旧金山03
+  - 02.24|freesub|美国05
   - 02.24|freesub|日本
   - 02.24|freesub|印度|卡纳塔克|班加罗尔
   - 02.24|freesub|法国
-  - 02.24|freesub|美国07
+  - 02.24|freesub|美国06
   - 02.24|freesub|美国|加利福尼亚02
   - 02.24|freesub|英国|伦敦|伦敦01
   - 02.24|freesub|英国|伦敦|伦敦02
-  - 02.24|freesub|美国08
+  - 02.24|freesub|美国07
   - 02.24|freesub|美国|亚马逊04
-  - 02.24|freesub|新加坡
+  - 02.24|freesub|韩国|韩国电信
+  - 02.24|freesub|美国|加利福尼亚|费利蒙
   - 02.24|freesub|加拿大|魁北克|博阿努瓦
   - 02.24|freesub|美国|马萨诸塞|波士顿
-  - 02.24|freesub|美国|加利福尼亚|旧金山04
-  - 02.24|freesub|美国09
-  - 02.24|freesub|美国|科罗拉多|威瑞森
   - 02.24|freesub|美国|加利福尼亚|旧金山05
+  - 02.24|freesub|美国|加利福尼亚|旧金山06
+  - 02.24|freesub|美国|科罗拉多|威瑞森
+  - 02.24|freesub|美国|加利福尼亚|旧金山07
   - 02.24|freesub|美国|加利福尼亚|圣何塞
-  - 02.24|freesub|澳大利亚04
+  - 02.24|freesub|澳大利亚03
   - 02.24|freesub|未知04
   - 02.24|freesub|加拿大|安大略|多伦多
   - 02.24|freesub|英国02
-  - 02.24|freesub|美国10
+  - 02.24|freesub|美国|加利福尼亚|旧金山08
   - 02.24|freesub|美国|加利福尼亚03
-  - 02.24|freesub|美国|加利福尼亚|旧金山06
+  - 02.24|freesub|美国|加利福尼亚|旧金山09
   - 02.24|freesub|美国|加利福尼亚04
   type: select
 rules:
